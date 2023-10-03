@@ -5,7 +5,7 @@ import { LoginForm } from "../../../features/Auth/ui/LoginForm/LoginForm";
 
 const AuthPage = () => {
   const authTypeForm = useSelector(getAuthTypeForm);
-
+  
   return (
     <div>{authTypeForm === "register" ? <RegisterForm /> : <LoginForm />}</div>
   );

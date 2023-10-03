@@ -7,7 +7,7 @@ const initialState: IAuthSchema = {
   typeAuthForm: "register",
 };
 
-export const counterSlice = createSlice({
+export const authSlice = createSlice({
   name: "Auth",
   // `createSlice` will infer the state type from the `initialState` argument
   initialState,
@@ -18,6 +18,6 @@ export const counterSlice = createSlice({
   },
 });
 
-export const { changeAuthForm } = counterSlice.actions;
+export const { changeAuthForm } = authSlice.actions;
 
-export const { reducer: AuthReducer } = counterSlice;
+export const { reducer: AuthReducer } = authSlice;
