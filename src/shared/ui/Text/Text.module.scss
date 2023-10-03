@@ -1,0 +1,55 @@
+.text {
+  line-height: 120%;
+
+  .title {
+    text-align: inherit;
+  }
+}
+
+.text.left {
+  text-align: left;
+}
+
+.text.center {
+  text-align: center;
+}
+
+.text.right {
+  text-align: right;
+}
+
+.text.m {
+  font-size: 12px;
+  .title {
+    font-size: 22px;
+    line-height: 25px;
+  }
+}
+
+.text.l {
+  font-size: 16px;
+  .title {
+    font-size: 28px;
+    line-height: 30px;
+  }
+}
+
+.text.xl {
+  font-size: 18px;
+  .title {
+    font-size: 32px;
+    line-height: 34px;
+  }
+}
+
+.text.standart {
+  color: var(--textMain);
+}
+
+.text.grey {
+  color: var(--gray);
+}
+
+.text.error {
+  color: var(--error);
+}

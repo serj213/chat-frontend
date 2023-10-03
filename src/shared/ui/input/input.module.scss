@@ -1,0 +1,25 @@
+.input.underline {
+ 
+    .label{
+        margin-bottom: 5px;
+    }
+    
+    input{
+        font-size: 20px;
+        line-height: 100%;
+        padding-bottom: 5px;
+        border-bottom: 1px solid var(--blue);
+        color:var(--textMain);
+    }
+}
+
+.input.full{
+    width: 100%;
+    input{
+        width: 100%;
+    }
+}
+
+.error{
+    padding-top: 5px;
+}

@@ -1,0 +1,27 @@
+.button {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  color:var(--textMain);
+  transition: .3s linear;
+}
+
+.clear {
+  background-color: transparent;
+}
+
+.primary {
+  background-color: var(--primary);
+  color: var(--white);
+  padding: 10px;
+  border-radius: var(--radius);
+  @media(any-hover:hover){
+    &:hover{
+        opacity: .8;
+    }
+  }
+}
+
+.full {
+  width: 100%;
+}

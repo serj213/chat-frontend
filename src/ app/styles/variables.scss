@@ -1,0 +1,19 @@
+:root {
+  --black: #393939;
+  --white: #fffcfc;
+  --pink: #ef5da8;
+  --blue: #0367d2;
+  --gray: #bec3c9;
+  --red: #ff3d00;
+
+  --mainColor: var(--pink);
+  --textMain: var(--black);
+  --textSecondary: var(--gray);
+  --error: var(--red);
+
+  --primary: var(--blue);
+
+  --radius: 10px;
+
+  --transition: all .3s linear;
+}
